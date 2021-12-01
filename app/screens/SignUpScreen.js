@@ -27,7 +27,7 @@ const SignUpScreen = ({navigation}) => {
           <TextInput style={styles.input} placeholder="Fullname"></TextInput>
           <TextInput style={styles.input} placeholder="Username"></TextInput>
           <TouchableOpacity style={styles.button}>
-            <Text style={styles.boldText}>Sign Up</Text>
+            <Text style={styles.boldText}> Sign Up</Text>
           </TouchableOpacity>
         </View>
         <Text style={styles.bottomHelpText}>

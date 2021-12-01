@@ -31,6 +31,7 @@ const SignInScreen = ({navigation}) => {
         <Text
           onPress={() => navigation.navigate('SignUp')}
           style={styles.boldText}>
+          {' '}
           Sign up.
         </Text>
       </Text>
@@ -52,7 +53,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   title: {
-    fontFamily:'Grestal',
+    fontFamily: 'Grestal',
     textAlign: 'center',
     fontSize: 40,
     marginTop: 25,
