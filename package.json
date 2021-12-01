@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "adb -s ES2BB80717004076 reverse tcp:8081 tcp:8081 && npx react-native run-android",
+    "android": "react-native run-android",
+    "nokia": "adb -s ES2BB80717004076 reverse tcp:8081 tcp:8081 && npx react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
